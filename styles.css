@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #34495e;
+}
+
+.schedule {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.schedule th, .schedule td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.schedule th {
+    background-color: #17a2b8;
+    color: white;
+}
+
+.schedule td {
+    background-color: #f1f8e9;
+}
+
+.course {
+    font-weight: bold;
+    color: #f5f2f2;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Adding course-specific colors */
+.uenr203 { background-color: #ff6f61; }
+.ceng207 { background-color: #42a5f5; }
+.ceng209 { background-color: #66bb6a; }
+.math209 { background-color: #ffca28; }
+.elng255 { background-color: #8e44ad; }
+.ceng201 { background-color: #26a69a; }
+.elng257 { background-color: #d35400; }
+.uenr201 { background-color: #2ecc71; }
+.mech161 { background-color: #cfeb16; }
+.elng153 { background-color: #dc1054; }
+.uenr101 { background-color: #2ecc71; }
+.math109 { background-color: #271cc1; }
+.elng155 { background-color: #e61818; }
+.uenr105 { background-color: #9b9bd2; }
+.elng151 { background-color: #47511d; }
+.seng107 { background-color: #af72b0; }
+.comp071 { background-color: #af72b0; }
+.comp073 { background-color: #e61818; }
+.comp075 { background-color: #42a5f5; }
+.inft071 { background-color: #8e44ad; }
+.inft073 { background-color: #cfeb16; }
+.comp077 { background-color: #ff6f61; }
+.comp079 { background-color: #2ecc71; }
+.stat165 { background-color: #42a5f5; }
+.math163 { background-color: #cfeb16; }
+.inft153 { background-color: #271cc1; }
+.uenr110 { background-color: #dc1054; }
+.uenr103 { background-color: #271cc1; }
+.uenr100 { background-color: #2ecc71; }
+.hspm115 { background-color: #9b9bd2; }
+.hspm111 { background-color: #47511d; }
+.hspm113 { background-color: #e61818; }
+.inft151 { background-color: #e38a8a; }
+/* Table-specific styling */
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 90%;
+}
+
+table th, table td {
+    padding: 15px;
+    border: 1px solid #aaa;
+    text-align: center;
+}
+
+table th {
+    background-color: #007bff;
+    color: white;
+}
+
+table td {
+    background-color: #eef;
+}
