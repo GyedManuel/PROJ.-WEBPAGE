@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+          content="width=device-width, initial-scale=1.0">
+    <title>Navigation Bar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <a href="/">
+          <img  src="WhatsApp Image 2024-08-25 at 19.41.28_7a28bf77.jpg" 
+               alt="Brand logo"> 
+                  <span class="brand-logo-name">
+                 MVC 
+                  </span>
+          </a>
+        <nav class="navbar">
+            <ul class="navbar-lists" id="myTopnav">
+                <li>
+                      <i class="fas fa-home"></i>
+                          <a class="navbar-link home-link" href="#">
+                              HOME</a>
+                  </li>
+                <li>
+                      <i class="fas fa-user"></i>
+                          <a class="navbar-link about-link" 
+                           href="#about-us-section">
+                              ABOUT 
+                          </a>
+                </li>
+                <li>
+                    <i class="fas fa-envelope"></i>
+                          <a class="navbar-link contact-link" 
+                           href="#contact-form">
+                          CONTACT
+                          </a>
+                  </li>
+                <li>
+                      <i class="fas fa-bullhorn"></i>
+                          <a class="navbar-link service-link" 
+                           href="#notice-bord-sction">
+                          EVENTS
+                          </a>
+                  </li>
+                <li><i class="fas fa-map-marked-alt"></i>
+                      <a class="navbar-link contact-link"
+                       href="homepage.html">
+                      TIMETABLE
+                      </a>
+                  </li>
+            </ul>
+            <a href="javascript:void(0);" 
+               class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+           
+        </nav>
+    </header>
+   
+
+
+    <main>
+
+        <div class="school-img-container">
+            <div class="img-container">
+                <img src="scholarship.webp"
+    
+                     alt="school img" class="school-img">
+                <h1 class="img-title">
+                  Welcome to Mountain View College
+                  </h1>
+            </div>
+        </div>
+
+        <section id="vision">
+            <h2 class="vision-heading">Vision</h2>
+            <p>The Vision of the University is to promote the development
+                 of human resources and skills required to solve critical energy 
+                 and natural resources challenges of society and undertake interdisciplinary
+                  academic research and outreach programmes in engineering, science, economics and
+                   environmental policy.
+                 
+        </section>
+
+        <div class="main-notice-section" 
+             id="notice-bord-sction">
+            <div class="notice-container">
+                <div class="notice-bord">
+                    <h2 class="notice-bord-heading">
+                      My Notice Board
+                      </h2>
+                    <div>
+                        <ul>
+                            <li>
+                                <i>April 1, 2025:</i>
+                                      
+                            </li>
+                            <li>
+                             Inauguration ceremony for 
+                                      the new academic year.
+                                      <span class="new-text">New</span>   <i>April 15, 2025:</i> 
+                                      Science fair showcasing 
+                                      innovative student projects. 
+                                      <span class="new-text">New</span>
+                            </li>
+                            <li>
+                                <i>April 30, 2025:</i> 
+                                      Cultural extravaganza featuring
+                                      dance, music, and drama performances. 
+                                      <span class="new-text">New</span>
+                            </li>
+                            <li>
+                                <i>April 30, 2025:</i> 
+                                      Cultural extravaganza featuring
+                                      dance, music, and drama performances. 
+                                      <span class="new-text"></span>
+                            </li>
+                            <li>
+                                <i>April 30, 2025:</i> 
+                                      Cultural extravaganza featuring
+                                      dance, music, and drama performances. 
+                                      <span class="new-text"></span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Events Section -->
+                <div class="event-card">
+                    <h2 class="event-heading">Upcoming Events</h2>
+                    <div class="event-details">
+                        <div class="event">
+                            <h3>Event Name 1</h3>
+                            <p>Date: April 15, 2025</p>
+                            <p>Time: 9:00 AM - 12:00 PM</p>
+                            <p>Location: School Auditorium</p>
+                            <p>
+                              <strong>Description:</strong> 
+                              Quiz competition.
+                              </p>
+                        </div>
+                        <div class="event">
+                            <h3>Event Name 2</h3>
+                            <p>Date: April 20, 2025</p>
+                            <p>Time: 2:00 PM - 5:00 PM</p>
+                            <p>Location: Sports Ground</p>
+                            <p>
+                                  <strong>Description:</strong> 
+                                  Cricket tournament.
+                              </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section id="about-us-section">
+            <div class="about-us-container">
+                <h2 class="aboutus-heading">About Us</h2>
+                <p>
+                    <strong class="subheading"> 
+                        Mountain View College: 
+                      </strong>
+                      Welcome to Mountain View College, where learning meets opportunity!
+                       Founded in 1990, we are dedicated to providing high-quality 
+                       education that prepares students for success.
+                      At Mountain View College, we offer diverse programs, experienced faculty, and a 
+                      supportive community. Our modern facilities and 
+                      vibrant campus life create an inspiring environment for academic and personal growth.
+                      We believe in innovation, leadership, and lifelong learning. 
+                      Whether in classrooms, research labs, or student organizations, 
+                      we help our students reach their full potential.                     
+                      Join us and be part of a tradition of excellence. 
+                      Welcome to Mountain View College —your future starts here!
+            </div>
+        </section>
+
+        <!-- <section class="our-school-map" id="campus-on-map">
+            <h2 class="location-heading">
+                  Find Our Location On Map
+              </h2>
+            <iframe src=""
+                    width="100%" height="450" 
+                    style="border:0;"
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+              </iframe>
+        </section> -->
+
+        <section id="contact-form">
+            <h2 class="contact-form-heading">
+              Contact Us Form
+              </h2>
+            <div class="container">
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="fullName">
+                          Full Name
+                          </label>
+                        <input type="text" id="fullName" 
+                               name="fullName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email"
+                               name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone</label>
+                        <input type="text" id="phone" 
+                               name="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" 
+                                  required>
+                          </textarea>
+                    </div>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
