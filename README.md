@@ -1,11 +1,11 @@
  Project Overview
 
-This project aims to design a responsive and interactive webpage that displays a class schedule table for four classes. The primary goal is to provide an easy-to-read, well-organized schedule for students and teachers while ensuring a seamless user experience across various devices. The project will use HTML for structure, CSS for styling, and JavaScript for dynamic enhancements, without including the code in the proposal.
+This project aims to design a responsive and interactive website that displays a class schedule table for four classes. The primary goal is to provide an easy-to-read, well-organized schedule for students and teachers while ensuring a seamless user experience across various devices. The project will use HTML for structure, CSS for styling, and JavaScript for dynamic enhancements, without including the code in the proposal.
 
  Objectives
 
 - Clear Presentation of Information: Display a weekly schedule for four classes in a tabulated format, ensuring that each class entry is clearly visible and accessible.
-- Responsive Design: Ensure that the webpage automatically adjusts its layout on different screen sizes (desktop, tablet, mobile) to maintain readability and usability.
+- Responsive Design: Ensure that the website automatically adjusts its layout on different screen sizes (desktop, tablet, mobile) to maintain readability and usability.
 - Interactive User Experience: Implement JavaScript-driven interactions such as hover effects on table cells to highlight active class sessions and provide additional visual cues.
 - Simplicity and Maintainability: Build a clean, maintainable codebase that follows web standards and separates structure (HTML), style (CSS), and behavior (JavaScript).
 
